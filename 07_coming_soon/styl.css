@@ -1,0 +1,64 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+
+}
+.container {
+  background: linear-gradient(135deg, #8a2be2, #4169e1);
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+}
+.logo {
+  width: 250px;
+  object-fit: contain;
+  border-radius: 36px;
+}
+h1 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+.btn {
+  padding: 0.5rem;
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.9s ease-in-out; /* used for when we hover then it takes how much time to hover on it*/
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+  font-size: medium;
+  font-weight: bolder;
+  font-style: italic;
+  margin-left: 70px;
+  margin-right: 70px;
+  max-width: 260px;
+}
+.btn:hover {
+  background-color: #c9afe3;
+}
